@@ -63,8 +63,7 @@ http.createServer(function(request, response) {
 			tweetEmitter.removeListener(listener);
 		}, 10000);
 		
-	}
-	else {
+	} else {
 		loadStaticFile(uri, response);
 	}
 }).listen(8080);
